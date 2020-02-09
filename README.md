@@ -15,3 +15,5 @@ The following API routes hadled by this app::
   * POST `/api/notes` - recieves a new note to save on the request body, adds it to the `db.json` file, and then returns the new note to the client.
 
   * DELETE `/api/notes/:id` - recieves a query paramter containing the id of a note to delete. In order to delete a note, app reads all notes from the `db.json` file, removes the note with the given `id` property, and then rewrites the notes to the `db.json` file.
+
+  This app deployed to heroku.
