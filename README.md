@@ -16,4 +16,4 @@ The following API routes hadled by this app::
 
   * DELETE `/api/notes/:id` - recieves a query paramter containing the id of a note to delete. In order to delete a note, app reads all notes from the `db.json` file, removes the note with the given `id` property, and then rewrites the notes to the `db.json` file.
 
-  This app deployed to heroku.
+  This app deployed to heroku (https://nameless-headland-62800.herokuapp.com/)
